@@ -1,0 +1,9 @@
+{
+  "name": "群问 AI",
+  "short_name": "群问",
+  "description": "一次提问，多种答案",
+  "start_url": "/mobile",
+  "display": "standalone",
+  "background_color": "#f7f6f2",
+  "theme_color": "#f7f6f2"
+}
