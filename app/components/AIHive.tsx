@@ -123,7 +123,7 @@ export function AIHive({ mode }: { mode: "desktop" | "mobile" }) {
       {mode === "desktop" ? (
         <>
           <aside className={`sidebar ${historyOpen ? "open" : ""}`}>
-            <div className="brand"><span className="brand-glyph">问</span><span>群问 AI</span></div>
+            <div className="brand"><span className="brand-glyph">问</span><span>AIAsk</span></div>
             <button className="new-chat" onClick={() => { setQuestion(""); setAnswers([]); }}>＋ <span>发起新问题</span></button>
             <p className="side-label">今天</p>
             <button className="history-item active">成都三日游怎么规划</button>
@@ -145,7 +145,7 @@ export function AIHive({ mode }: { mode: "desktop" | "mobile" }) {
         {mode === "mobile" ? (
           <header className="app-header">
             <button aria-label="打开菜单">☰</button>
-            <div className="brand compact"><span className="brand-glyph">问</span><span>群问 AI</span></div>
+            <div className="brand compact"><span className="brand-glyph">问</span><span>AIAsk</span></div>
             <a href="/" aria-label="打开网页版">⌗</a>
           </header>
         ) : (

@@ -3,20 +3,20 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.SITE_URL || "http://localhost:3000"),
-  title: "群问 AI｜一次提问，多种答案",
+  title: "AIAsk｜一次提问，多种答案",
   description: "同时向豆包、千问与腾讯混元提问，并排比较答案，快速得到更可靠的综合结论。",
-  applicationName: "群问 AI",
+  applicationName: "AIAsk",
   manifest: "/manifest.webmanifest",
   openGraph: {
-    title: "群问 AI｜一次提问，多种答案",
+    title: "AIAsk｜一次提问，多种答案",
     description: "同时向豆包、千问与腾讯混元提问，并排比较答案，快速得到更可靠的综合结论。",
     type: "website",
     locale: "zh_CN",
-    images: [{ url: "/og.png", width: 1731, height: 909, alt: "群问 AI——一次提问，多种答案" }],
+    images: [{ url: "/og.png", width: 1731, height: 909, alt: "AIAsk——一次提问，多种答案" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "群问 AI｜一次提问，多种答案",
+    title: "AIAsk｜一次提问，多种答案",
     description: "同时询问多位 AI，并排比较，综合结论。",
     images: ["/og.png"],
   },

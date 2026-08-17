@@ -1,6 +1,6 @@
 {
-  "name": "群问 AI",
-  "short_name": "群问",
+  "name": "AIAsk",
+  "short_name": "AIAsk",
   "description": "一次提问，多种答案",
   "start_url": "/mobile",
   "display": "standalone",

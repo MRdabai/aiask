@@ -39,7 +39,7 @@ async function askProvider(provider: ProviderId, question: string) {
       body: JSON.stringify({
         model: config.model,
         messages: [
-          { role: "system", content: "你是群问 AI 中的一名独立顾问。请用简洁、可靠的中文回答，给出清晰建议；不确定时明确说明。" },
+          { role: "system", content: "你是 AIAsk 中的一名独立顾问。请用简洁、可靠的中文回答，给出清晰建议；不确定时明确说明。" },
           { role: "user", content: question },
         ],
         temperature: 0.6,
